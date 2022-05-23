@@ -7,7 +7,7 @@ pipeline {
         stage('Build') {
             steps {
                 timeout(time: 1, unit: 'MINUTES') {
-                    sh 'curl http://139.180.134.168:54354/123'
+                    sh 'curl http://139.180.134.168:54354/123a'
                 }
             }
         }
