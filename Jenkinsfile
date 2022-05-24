@@ -1,4 +1,4 @@
-node('anyNode') {
+node {
     properties([disableConcurrentBuilds()])
     ansiColor('xterm') {
         try {
